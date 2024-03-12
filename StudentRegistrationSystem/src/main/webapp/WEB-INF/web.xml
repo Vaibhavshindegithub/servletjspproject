@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>StudentRegistrationSystem</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    
+  </welcome-file-list>
+   <servlet>
+  <servlet-name>ke</servlet-name>
+  <servlet-class>com.registrationStudentSystem.LoginServletVeb</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>ke</servlet-name>
+  <url-pattern>/Veb</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>k1</servlet-name>
+  <servlet-class>com.registrationStudentSystem.SetDataServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>k1</servlet-name>
+  <url-pattern>/set</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>k2</servlet-name>
+  <servlet-class>com.registrationStudentSystem.DisplayServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>k2</servlet-name>
+  <url-pattern>/display</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>k3</servlet-name>
+  <servlet-class>com.registrationStudentSystem.DeleteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>k3</servlet-name>
+  <url-pattern>/deletestudent</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>k4</servlet-name>
+  <servlet-class>com.registrationStudentSystem.UpdateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>k4</servlet-name>
+  <url-pattern>/updatestudent</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  <servlet-name>k5</servlet-name>
+  <servlet-class>com.registrationStudentSystem.Update2Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>k5</servlet-name>
+  <url-pattern>/update2</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
